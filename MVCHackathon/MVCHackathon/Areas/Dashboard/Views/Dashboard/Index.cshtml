@@ -1,4 +1,6 @@
-﻿
+﻿@using MVCHackathon.Areas.Dashboard.Models
+@model MVCHackathon.Areas.Dashboard.Models.DashboardModel
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -6,5 +8,179 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Dashboard</h2>
+@using (Html.BeginForm())
+{
+    <div class="container">
+        <div class="page-templete-header">Dashboard</div>
+        <div style="margin-top:20px;" class="col-md-12 col-sm-8">
+            <div class="dashboard-section row">
+                <div class="dashboard-section-header col-lg-12 col-md-12">
+                    All Outgoing Mails to internal Domain
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Daily
+                    </div>
+                    <div class="dashboard-section-item-count daily">
+                        @Model.OutgoingInternalList[0].Daily
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Weekly
+                    </div>
+                    <div class="dashboard-section-item-count weekly">
+                        @Model.OutgoingInternalList[0].Weekly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Monthly
+                    </div>
+                    <div class="dashboard-section-item-count monthly">
+                        @Model.OutgoingInternalList[0].Monthly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Yearly
+                    </div>
+                    <div class="dashboard-section-item-count yearly">
+                        @Model.OutgoingInternalList[0].Yearly
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-section row">
+                <div class="dashboard-section-header col-lg-12 col-md-12">
+                    All Outgoing Mails to external Domain
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Daily
+                    </div>
+                    <div class="dashboard-section-item-count daily">
+                        @Model.OutgoingExternalList[0].Daily
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Weekly
+                    </div>
+                    <div class="dashboard-section-item-count weekly">
+                        @Model.OutgoingExternalList[0].Weekly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Monthly
+                    </div>
+                    <div class="dashboard-section-item-count monthly">
+                        @Model.OutgoingExternalList[0].Monthly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Yearly
+                    </div>
+                    <div class="dashboard-section-item-count yearly">
+                        @Model.OutgoingExternalList[0].Yearly
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-section row">
+                <div class="dashboard-section-header col-lg-12 col-md-12">
+                    All Incoming Mails from internal Domain
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Daily
+                    </div>
+                    <div class="dashboard-section-item-count daily">
+                        @Model.IncomingInternalList[0].Daily
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Weekly
+                    </div>
+                    <div class="dashboard-section-item-count weekly">
+                        @Model.IncomingInternalList[0].Weekly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Monthly
+                    </div>
+                    <div class="dashboard-section-item-count monthly">
+                        @Model.IncomingInternalList[0].Monthly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Yearly
+                    </div>
+                    <div class="dashboard-section-item-count yearly">
+                        @Model.IncomingInternalList[0].Yearly
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-section row">
+                <div class="dashboard-section-header col-lg-12 col-md-12">
+                    All Incoming Mails from external Domain
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Daily
+                    </div>
+                    <div class="dashboard-section-item-count daily">
+                        @Model.IncomingExternalList[0].Daily
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Weekly
+                    </div>
+                    <div class="dashboard-section-item-count weekly">
+                        @Model.IncomingExternalList[0].Weekly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Monthly
+                    </div>
+                    <div class="dashboard-section-item-count monthly">
+                        @Model.IncomingExternalList[0].Monthly
+                    </div>
+                </div>
+
+                <div class="dashboard-section-item-container col-lg-3 col-md-3">
+                    <div class="dashboard-section-item-header">
+                        Yearly
+                    </div>
+                    <div class="dashboard-section-item-count yearly">
+                        @Model.IncomingExternalList[0].Yearly
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 

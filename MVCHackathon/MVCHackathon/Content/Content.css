@@ -1,0 +1,53 @@
+﻿.dashboard-section{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-section-header{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dashboard-section-item-container{
+    /*border: 1px solid #ccc;*/
+    padding: 5px;
+}
+
+.dashboard-section-item-header{
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.dashboard-section-item-count{
+    color: white;
+    font-weight: 600;
+    font-size: 120px;    
+    text-align: center;
+    border: 1px outset #ccc;    
+    height: 190px;
+    min-width: 220px;
+    padding: 5px;
+}
+
+.daily{
+    background-color: #71338D;
+}
+
+.weekly{
+    background-color: #a8ce4b;
+}
+
+.monthly{
+    background-color: #007acc;
+}
+
+.yearly{
+    background-color: #00643a;
+}
+
+.page-templete-header{
+    font-size: 30px;
+    font-weight: 600;
+}
