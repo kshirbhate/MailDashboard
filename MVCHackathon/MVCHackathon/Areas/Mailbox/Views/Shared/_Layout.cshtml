@@ -1,40 +1,77 @@
-﻿<!DOCTYPE html>
+﻿@using MVCHackathon.Models;
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Title here</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    @*<link href="~/Content/main.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <link href="~/Content/inbox.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/dataTables.bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-barcode.js"></script>
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+    <div class="container body-content">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Mail Dashboard</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        @if (ViewBag.UserRoleId == MVCHackathon.Models.Context.ADMIN)
+                        {
+                            <li><a href='@Url.Action("Index", "Dashboard", new { area = "Dashboard"})'>Dashboard</a></li>                            
+                        }
+                        @if (ViewBag.UserRoleId == MVCHackathon.Models.Context.CUSTOMER)
+                        {
+                            <li><a href='@Url.Action("Index", "Customer", new { area = "Customer"})'>My Dashboard</a></li>                            
+                        }
+                        <li><a href='@Url.Action("Index", "Mailbox", new { area = "Mailbox"})'>Mailbox</a></li>
+                        <li><a href='@Url.Action("ComposeMail", "Mailbox", new { area = "Mailbox"})'>Compose Mail</a></li>
+                        <li><a href='@Url.Action("Index", "Chat", new { area = "Chat"})'>Chats</a></li>
+                        <li><a href='@Url.Action("ImportantLinks", "Home", new { area = ""})'>Important Links</a></li>
+                        <li><a href='@Url.Action("Help", "Home", new { area = ""})'>Help</a></li>
+                        <li><a href='@Url.Action("About", "Home", new { area = ""})'>About</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a><b>Hello @ViewBag.UserRealName</b></a></li>
+                        <li><a href='@Url.Action("Logout", "Home", new { area = ""})'><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
+        </nav>
+       
     </div>
 
-    <div class="container body-content">
-        @RenderBody()
+<div class="sidenav">
+  <a href="#about">Inbox</a>
+  <a href="#services">Sent</a>
+  <a href="#clients">Draft</a>
+  <a href="#contact">Spam</a>
+</div>
+
+
+ @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Footer here</p>
         </footer>
-    </div>
 
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+
 </body>
 </html>

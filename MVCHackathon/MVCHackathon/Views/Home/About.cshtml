@@ -1,8 +1,75 @@
 ﻿
 @{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About ";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>About</h2>
+@using (Html.BeginForm())
+{
+    <div class="container">
+        <h2 class="">About Us</h2>
+        <div class="col-md-12 col-sm-12">
+            <!-- Heading -->
+            <div id="heading">
+                <h1>Mail Dashboard</h1>
+            </div>
 
+            <!-- Main -->
+            <section id="main" class="wrapper">
+                <div class="inner">
+                    <div class="content">
+                        <header>
+                            <h2>Introduction</h2>
+                        </header>
+                        <p>
+                            Orient production is team of fullay motivated and well trainedprofessional personlsforgiving services in diverse fields of information.
+                            Electronic Mail (email or e-mail) is a method of exchanging messages between people using electronic devices. Email first entered limited use in the 1960s and by the mid-1970s had taken the form now recognized as email. This mail dashboard is for connecting or communicating customers within single organization. With our dashboard, you will know exactly what’s going on in your business at all times. You know what’s working and what’s not working. For instance, your dashboard could show you exactly how your last email blast to your customers went. How many people opened the email? Such answers should automatically appear on your dashboard. Better Management of Mail Boxes, Proactive monitoring, detecting any suspicious activity.
+                        </p>
+                        <hr />
+                        <h3>Technology used in project:-</h3>
+
+                        <ul>
+                            <li>ASP.NET MVC</li>
+                            <li>C#</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    <div class="content">
+                        <section>
+                            <h3>Accumsan montes viverra</h3>
+                            <p>
+                                Microsoft Visual Studio Ultimate 2012<br />
+                                Version 11.0.50727.1 RTMREL<br />
+                                Microsoft .NET Framework<br />
+                                Version 4.6.01055.
+                            </p>
+                        </section>
+                        <section>
+                            <h4>Developers</h4>
+                            <ul class="alt">
+                                <li><a href="#">Admin1.</a></li>
+                                <li><a href="#">Admin2.</a></li>
+                                <li><a href="#">Admin3.</a></li>
+                                <li><a href="#">Admin4.</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h4>For more: </h4>
+                            <ul class="plain">
+                                <li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                                <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                                <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                                <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </div>
+            </footer>  
+        </div>
+    </div>
+}

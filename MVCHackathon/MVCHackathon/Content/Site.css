@@ -13,6 +13,14 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 700px;
 }
 
+.mailbox-sub-title{
+    font-size: 24px;
+}
+
+.activelink{
+    background-color: blue;
+    color: white;
+}

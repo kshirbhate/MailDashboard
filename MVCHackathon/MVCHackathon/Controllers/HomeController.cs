@@ -24,23 +24,30 @@ namespace MVCHackathon.Controllers
         public ActionResult doSignIn(UserModel model)
         {
             bool bretval = false;
-            bretval = UserService.Instance.doSignIn(model, UserSession);
-
-            if (bretval)
+            if(string.IsNullOrEmpty(model.UserName) || string.IsNullOrEmpty(model.Password))
             {
-                setupSession();
-                if(ViewBag.UserRoleId == Context.ADMIN)
-                {
-                    return Redirect(Url.RouteUrl(new { Area = "Dashboard", Controller = "Dashboard", action = "Index" }));
-                }
-                else
-                {
-                    return Redirect(Url.RouteUrl(new { Area = "Customer", Controller = "Customer", action = "Index" }));
-                }
-                
+                return View();
             }
+            else
+            {
+                bretval = UserService.Instance.doSignIn(model, UserSession);
 
-            return View();
+                if (bretval)
+                {
+                    setupSession();
+                    if (ViewBag.UserRoleId == Context.ADMIN)
+                    {
+                        return Redirect(Url.RouteUrl(new { Area = "Dashboard", Controller = "Dashboard", action = "Index" }));
+                    }
+                    else
+                    {
+                        return Redirect(Url.RouteUrl(new { Area = "Customer", Controller = "Customer", action = "Index" }));
+                    }
+
+                }
+
+                return View();
+            }            
         }
         public virtual ActionResult Logout()
         {

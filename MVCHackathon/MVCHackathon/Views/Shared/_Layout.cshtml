@@ -5,19 +5,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Title here</title>
-    <link href="~/Content/Content.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Content.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
-    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/scripts/jquery-ui-1.12.1.min.js"></script>
 
-    <script src="~/Scripts/bootstrap.min.js"></script>
-    <script src="~/Scripts/jquery.dataTables.min.js"></script>
-    <script src="~/Scripts/dataTables.bootstrap.min.js"></script>
-    <script src="~/Scripts/jquery-barcode.js"></script>
-    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script src="~/scripts/DataTables/dataTables.bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container body-content">
@@ -61,6 +59,28 @@
             <p>&copy; @DateTime.Now.Year - Footer here</p>
         </footer>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#table-data-collection').DataTable();
+
+            $('#table-data-collection-pagination').DataTable({
+                "pagingType": "full_numbers"
+            });
+            $('#table-data-collection-pagination1').DataTable({
+                "pagingType": "full_numbers"
+            });
+            $('#table-data-collection-pagination2').DataTable({
+                "pagingType": "full_numbers"
+            });
+            $('#table-data-collection-pagination3').DataTable({
+                "pagingType": "full_numbers"
+            });
+            $('#table-data-collection-pagination4').DataTable({
+                "pagingType": "full_numbers"
+            });
+        });
+    </script>
 
 
 </body>

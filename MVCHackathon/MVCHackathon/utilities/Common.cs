@@ -79,6 +79,84 @@ namespace MVCHackathon.utilities
                 throw new DataException(message, e);
             }
         }
+
+        public void ConvertRsObj(ref object oObject, DbDataReader oDDReader, object oClassName)
+        {
+            Type oCllctnType = null;
+            object oClassObject = null;
+            Type oClassType = null;
+
+            try
+            {
+                //Get type of the collection object
+                oCllctnType = oObject.GetType();
+
+                if (oClassName != null)
+                {
+                    oClassType = oClassName.GetType();
+                }
+
+                if (oDDReader.HasRows)
+                {
+                    //Reading record one by one
+                    while (oDDReader.Read())
+                    {
+                        //create instance of the class specified.
+                        oClassObject = (object)Activator.CreateInstance(oClassType);
+
+                        //Getting details of each field in a particular record.
+                        for (int i = 0; i < oDDReader.FieldCount; i++)
+                        {
+                            // Returns the name of Field
+                            string Name = oDDReader.GetName(i);
+
+                            //Returns the type of each Field
+                            Type oFieldType = oDDReader.GetFieldType(i);
+
+                            //Returns the value of Field
+                            string sValue = Convert.ToString(oDDReader[Name]);
+                            if (Name == "InsertTimeStamp")
+                            {
+                                sValue = Convert.ToString(Convert.ToDateTime(oDDReader[Name]));
+                            }
+                            //Call to the function which returns object of Actual Data Type and value of the Field Passed 
+                            PropertyInfo objectPropertyInfo = oClassType.GetProperty(Name);
+                            if (objectPropertyInfo == null)
+                            {
+                                // Property of "Name" does not exist on the class ... skip and 
+                                // go to next field --- Added by SV 16/07/12
+                                continue;
+                            }
+                            Type oPropertyType = oClassType.GetProperty(Name).PropertyType;
+
+                            object o;
+                            if (oPropertyType.FullName != oFieldType.FullName)
+                                o = fieldTypeInfo(oPropertyType, sValue);
+                            else
+                                o = fieldTypeInfo(oFieldType, sValue);
+
+                            //Set the value to object
+                            if (!objectPropertyInfo.CanWrite)
+                                continue;
+
+                            objectPropertyInfo.SetValue(oClassObject, o, null);
+                        }
+                        object[] oArrayClassObject = new object[1];
+                        oArrayClassObject[0] = oClassObject;
+
+                        //Invoke Add method of the collection class.
+                        oCllctnType.GetMethod("Add").Invoke(oObject, oArrayClassObject);
+                    }
+                }
+
+            }
+            catch (Exception e)
+            {
+                string message = "Unable to retrieve data.";
+                string debugInformation = string.Format("Exception occured in rsToCollection");
+                throw new DataException(message, e);
+            }
+        }
         public object fieldTypeInfo(Type sFieldType, string sFieldValue)
         {
             object type = null;
@@ -193,5 +271,18 @@ namespace MVCHackathon.utilities
             }
             return type;
         }
+
+        public DbDataReader CloseReader(DbDataReader reader)
+        {
+            if (reader != null)
+            {
+                if (!reader.IsClosed)
+                    reader.Close();
+                reader.Dispose();
+            }
+            reader = null;
+            return reader;
+        }
+        
     }
 }

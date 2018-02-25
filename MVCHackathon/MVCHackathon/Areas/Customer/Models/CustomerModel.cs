@@ -7,40 +7,34 @@ namespace MVCHackathon.Areas.Customer.Models
 {
     public class CustomerModel 
     {
-        private long _CustomerId;
-        private string _CustomerName;
+        private long _UserId;      
+        private string _UserRealName;        
         private string _Mobile;
         private string _Email;
+        private string _UserName;
+        private string _Address;
+        private string _City;
+        private string _Pincode;
+        private string _State;
+        private string _Country;
+        private string _Dateofbirth;
+        private string _Gender;        
+        private long _Active;
+        private long _UserRoleId;         
         private string _Password;
         private System.Int64 _InsertByUserId;
         private System.DateTime _InsertTimeStamp = DateTime.Now;
 
-        public long CustomerId
+        public long UserId
         {
-            get
-            {
-                return _CustomerId;
-            }
-
-            set
-            {
-                _CustomerId = value;
-            }
+            get { return _UserId; }
+            set { _UserId = value; }
         }
-
-        public string CustomerName
+        public string UserRealName
         {
-            get
-            {
-                return _CustomerName;
-            }
-
-            set
-            {
-                _CustomerName = value;
-            }
+            get { return _UserRealName; }
+            set { _UserRealName = value; }
         }
-
         public string Mobile
         {
             get
@@ -66,6 +60,65 @@ namespace MVCHackathon.Areas.Customer.Models
                 _Email = value;
             }
         }
+        public string UserName
+{
+  get { return _UserName; }
+  set { _UserName = value; }
+}
+
+        public string Address
+        {
+            get { return _Address; }
+            set { _Address = value; }
+        }
+        public string City
+        {
+            get { return _City; }
+            set { _City = value; }
+        }
+        public string Pincode
+        {
+            get { return _Pincode; }
+            set { _Pincode = value; }
+        }
+        public string State
+        {
+            get { return _State; }
+            set { _State = value; }
+        }
+        public string Country
+        {
+            get { return _Country; }
+            set { _Country = value; }
+        }
+        public string Dateofbirth
+        {
+            get { return _Dateofbirth; }
+            set { _Dateofbirth = value; }
+        }
+        public string Gender
+        {
+            get
+            {
+                return _Gender;
+            }
+
+            set
+            {
+                _Gender = value;
+            }
+        }
+
+        public long Active
+        {
+            get { return _Active; }
+            set { _Active = value; }
+        }
+        public long UserRoleId
+        {
+            get { return _UserRoleId; }
+            set { _UserRoleId = value; }
+        } 
 
         public long InsertByUserId
         {
@@ -105,5 +158,7 @@ namespace MVCHackathon.Areas.Customer.Models
                 _Password = value;
             }
         }
+
+       
     }
 }

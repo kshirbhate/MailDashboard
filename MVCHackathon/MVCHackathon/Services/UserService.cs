@@ -34,6 +34,7 @@ namespace MVCHackathon.Services
         {
             bool bretval = false;
             Object oModel = new UserModel();
+            DbDataReader reader = null;
 
             MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
             connection.Open();
@@ -54,7 +55,6 @@ namespace MVCHackathon.Services
                 sbsql.Append(" ; ");
 
                 cmd.CommandText = sbsql.ToString();
-                DbDataReader reader = null;
                 reader = cmd.ExecuteReader();
 
                 if (reader != null && reader.HasRows)
@@ -86,6 +86,7 @@ namespace MVCHackathon.Services
             }
             finally
             {
+                reader = Common.Instance.CloseReader(reader);
                 connection.Close();
             }
             return bretval;

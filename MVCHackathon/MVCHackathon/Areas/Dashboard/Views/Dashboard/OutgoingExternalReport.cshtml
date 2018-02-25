@@ -1,0 +1,144 @@
+﻿@using MVCHackathon.Areas.Dashboard.Models
+@model MVCHackathon.Areas.Dashboard.Models.DashboardModel
+@{
+    ViewBag.Title = "OutgoingInternalReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="main">
+        <div class="container">
+            <div id="loginbox" class="col-md-12  col-sm-12">
+                <h2>Outgoing External Mails Report</h2>
+                <hr />
+
+                <div class="top-10-section col-lg-12 col-md-12">
+                    <div class="mailbox-sub-title top-10-section-label" id="mailbox-sub-title">Today's Top 10</div>
+                    <table id="table-data-collection-pagination1" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th id="first-header-column">View</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Subjet</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @for (int i = 0; i < Model.DailyList.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href='@Url.Action("DetailMail", "MailBox", new { area = "MailBox", MailId = Model.DailyList[i].MailId })'>View</a>
+                                    </td>
+                                    <td>@Model.DailyList[i].From</td>
+                                    <td>@Model.DailyList[i].To</td>
+                                    <td>@Model.DailyList[i].Subject</td>
+                                    <td>@Model.DailyList[i].InsertTimeStamp</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="top-10-section col-lg-12 col-md-12">
+                    <div class="mailbox-sub-title top-10-section-label" id="mailbox-sub-title">Weekly Top 10</div>
+                    <table id="table-data-collection-pagination2" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th id="first-header-column">View</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Subjet</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @for (int i = 0; i < Model.WeeklyList.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href='@Url.Action("DetailMail", "MailBox", new { area = "MailBox", MailId = Model.WeeklyList[i].MailId })'>View</a>
+                                    </td>
+                                    <td>@Model.WeeklyList[i].From</td>
+                                    <td>@Model.WeeklyList[i].To</td>
+                                    <td>@Model.WeeklyList[i].Subject</td>
+                                    <td>@Model.WeeklyList[i].InsertTimeStamp</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-lg-12 col-md-12 top-10-section">
+                    <div class="mailbox-sub-title top-10-section-label" id="mailbox-sub-title">Monthly Top 10</div>
+                    <table id="table-data-collection-pagination3" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th id="first-header-column">View</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Subjet</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @for (int i = 0; i < Model.MonthlyList.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href='@Url.Action("DetailMail", "MailBox", new { area = "MailBox", MailId = Model.MonthlyList[i].MailId })'>View</a>
+                                    </td>
+                                    <td>@Model.MonthlyList[i].From</td>
+                                    <td>@Model.MonthlyList[i].To</td>
+                                    <td>@Model.MonthlyList[i].Subject</td>
+                                    <td>@Model.MonthlyList[i].InsertTimeStamp</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-lg-12 col-md-12 top-10-section">
+                    <div class="mailbox-sub-title top-10-section-label" id="mailbox-sub-title">Last Years Top 10</div>
+                    <table id="table-data-collection-pagination4" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th id="first-header-column">View</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Subjet</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @for (int i = 0; i < Model.YearlyList.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href='@Url.Action("DetailMail", "MailBox", new { area = "MailBox", MailId = Model.YearlyList[i].MailId })'>View</a>
+                                    </td>
+                                    <td>@Model.YearlyList[i].From</td>
+                                    <td>@Model.YearlyList[i].To</td>
+                                    <td>@Model.YearlyList[i].Subject</td>
+                                    <td>@Model.YearlyList[i].InsertTimeStamp</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+}
+

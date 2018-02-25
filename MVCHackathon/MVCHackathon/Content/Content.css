@@ -9,6 +9,7 @@
     font-size: 24px;
 }
 
+
 .dashboard-section-item-container{
     /*border: 1px solid #ccc;*/
     padding: 5px;
@@ -50,4 +51,20 @@
 .page-templete-header{
     font-size: 30px;
     font-weight: 600;
+}
+
+.activelink{
+    background-color: blue;
+    color: white;
+}
+
+.top-10-section{
+    padding: 15px;
+    border: 1px solid #009999;
+    margin-bottom: 20px;
+}
+
+.top-10-section-label{
+    color : darkblue !important;
+    margin-bottom: 10px;
 }

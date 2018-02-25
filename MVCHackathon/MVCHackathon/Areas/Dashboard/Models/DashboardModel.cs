@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using MVCHackathon.Areas.Customer.Models;
+using MVCHackathon.Areas.Mailbox.Models;
 
 namespace MVCHackathon.Areas.Dashboard.Models
 {
@@ -17,6 +18,21 @@ namespace MVCHackathon.Areas.Dashboard.Models
         private List<DashboardModel> _IncomingExternalList = new List<DashboardModel>();
         private List<DashboardModel> _IncomingInternalList = new List<DashboardModel>();
         private List<DashboardModel> _List = null;
+
+        private List<DashboardModel> _DailyList = new List<DashboardModel>();
+        private List<DashboardModel> _WeeklyList = new List<DashboardModel>();
+        private List<DashboardModel> _MonthlyList = new List<DashboardModel>();
+        private List<DashboardModel> _YearlyList = new List<DashboardModel>();
+        private long _Count;
+
+        private long _MailId;
+        private string _To;
+        private string _Cc;
+        private string _Bcc;
+        private string _From;
+        private string _Subject;
+        private string _Message;
+        private string _Attachment;
 
         public long Daily
         {
@@ -137,6 +153,179 @@ namespace MVCHackathon.Areas.Dashboard.Models
             set
             {
                 _IncomingInternalList = value;
+            }
+        }
+
+        public long Count
+        {
+            get
+            {
+                return _Count;
+            }
+
+            set
+            {
+                _Count = value;
+            }
+        }
+
+        public List<DashboardModel> DailyList
+        {
+            get
+            {
+                if (_DailyList == null) _DailyList = new List<DashboardModel>();
+                return _DailyList;
+            }
+
+            set
+            {
+                _DailyList = value;
+            }
+        }
+
+        public List<DashboardModel> WeeklyList
+        {
+            get
+            {
+                if (_WeeklyList == null) _WeeklyList = new List<DashboardModel>();
+                return _WeeklyList;
+            }
+
+            set
+            {
+                _WeeklyList = value;
+            }
+        }
+
+        public List<DashboardModel> MonthlyList
+        {
+            get
+            {
+                if (_MonthlyList == null) _MonthlyList = new List<DashboardModel>();
+                return _MonthlyList;
+            }
+
+            set
+            {
+                _MonthlyList = value;
+            }
+        }
+
+        public List<DashboardModel> YearlyList
+        {
+            get
+            {
+                if (_YearlyList == null) _YearlyList = new List<DashboardModel>();
+                return _YearlyList;
+            }
+
+            set
+            {
+                _YearlyList = value;
+            }
+        }
+
+        public long MailId
+        {
+            get
+            {
+                return _MailId;
+            }
+
+            set
+            {
+                _MailId = value;
+            }
+        }
+
+        public string To
+        {
+            get
+            {
+                return _To;
+            }
+
+            set
+            {
+                _To = value;
+            }
+        }
+
+        public string Cc
+        {
+            get
+            {
+                return _Cc;
+            }
+
+            set
+            {
+                _Cc = value;
+            }
+        }
+
+        public string Bcc
+        {
+            get
+            {
+                return _Bcc;
+            }
+
+            set
+            {
+                _Bcc = value;
+            }
+        }
+
+        public string From
+        {
+            get
+            {
+                return _From;
+            }
+
+            set
+            {
+                _From = value;
+            }
+        }
+
+        public string Subject
+        {
+            get
+            {
+                return _Subject;
+            }
+
+            set
+            {
+                _Subject = value;
+            }
+        }
+
+        public string Message
+        {
+            get
+            {
+                return _Message;
+            }
+
+            set
+            {
+                _Message = value;
+            }
+        }
+
+        public string Attachment
+        {
+            get
+            {
+                return _Attachment;
+            }
+
+            set
+            {
+                _Attachment = value;
             }
         }
     }

@@ -1,0 +1,57 @@
+﻿@using MVCHackathon.Areas.Mailbox.Models
+@model MVCHackathon.Areas.Mailbox.Models.MailModel
+@{
+    ViewBag.Title = "DetailMail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="main">
+        <div class="container">
+            <div id="loginbox" class="col-md-12  col-sm-12">
+                <h2>Mail Box</h2>
+                <hr />
+
+                <div class="col-lg-1 col-md-1">
+                    <div class="sidenav">
+                        <a href='@Url.Action("Index", "Mailbox", new { area = "Mailbox"})'>Inbox</a>
+                        <a href='@Url.Action("SentMail", "Mailbox", new { area = "Mailbox"})'>Sent</a>
+                        <a href='@Url.Action("DraftMail", "Mailbox", new { area = "Mailbox"})'>Drafts</a>
+                        <a href='@Url.Action("SpamMail", "Mailbox", new { area = "Mailbox"})'>Spam</a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-11 col-md-11">
+                    <div class="mailbox-sub-title" id="mailbox-sub-title">@Model.MailBoxSubTitle</div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <label>From :</label> @Model.From
+                        </div>
+                        <div class="col-lg-12">
+                            <label>To :</label> @Model.To
+                        </div>
+                        <div class="col-lg-12">
+                            <label>Cc :</label> @Model.Cc
+                        </div>
+
+                        <div class="col-lg-12">
+                            <label>Subject :</label> @Model.Subject
+                        </div>
+                        <div class="col-lg-12">
+                            <label>Message :</label> @Model.Message
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+}

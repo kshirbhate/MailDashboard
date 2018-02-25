@@ -45,7 +45,835 @@ D:\LearningApp\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
 D:\LearningApp\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
 D:\LearningApp\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
 D:\LearningApp\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
-D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+H:\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+H:\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+H:\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+H:\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+H:\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+H:\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+H:\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\MVCHackathon\MVCHackathon\bin\mscorlib.dll
+H:\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+H:\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+H:\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+H:\MVCHackathon\MVCHackathon\bin\normidna.nlp
+H:\MVCHackathon\MVCHackathon\bin\normnfc.nlp
+H:\MVCHackathon\MVCHackathon\bin\normnfd.nlp
+H:\MVCHackathon\MVCHackathon\bin\normnfkc.nlp
+H:\MVCHackathon\MVCHackathon\bin\normnfkd.nlp
+H:\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+H:\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+H:\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+C:\Users\Tushar\Desktop\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\my projects\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\my projects\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\my projects\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\my projects\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\my projects\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\my projects\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\my projects\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+G:\New folder\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+G:\New folder\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+G:\New folder\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+G:\New folder\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+G:\New folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+G:\New folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+G:\New folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\sample\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+E:\sample\MVCHackathon\MVCHackathon\bin\Microsoft.Web.Infrastructure.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\my project\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\my project\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\my project\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+C:\Users\Tushar\Desktop\sample\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\sample\sample1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\sample\sample1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\sample\sample1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\sample\sample1-copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\sample\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\sample\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\sample\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\my project\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\my project\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\my project\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+G:\sample update\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+G:\sample update\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+G:\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+G:\sample update\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+G:\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+G:\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+G:\sample update\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.Web.Infrastructure.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+D:\LearningApp\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\my project\MVCHackathon\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+E:\my project\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+F:\Softwares\MVCHackathon - Copy\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.Web.Infrastructure.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+G:\Project Update\New Folder\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\ApplicationInsights.config
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\System.Collections.Immutable.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\System.Reflection.Metadata.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\vbc.exe
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\roslyn\VBCSCompiler.exe.config
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll.config
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\MVCHackathon.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.Web.Infrastructure.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\MySql.Data.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Razor.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.DependencyCollector.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.Web.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.AI.WindowsServer.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.ApplicationInsights.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Razor.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Deployment.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
+D:\LearningApp\MailDashboard\archiveNew\New Folder-1\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\Views\ApplicationInsights.config
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\csc.exe
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -89,6 +917,5 @@ D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Webpages.Razor.xml
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Helpers.xml
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
-D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
