@@ -51,35 +51,43 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 sbsql.Append(" where IsInternal=1 ");
                 sbsql.Append(" ; ");
 
-                if (type != "all" && type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
                     sbsql.Append(" where date_format(InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
                     sbsql.Append(" and IsInternal=1 ");
                     sbsql.Append(" ; ");
                 }
-                else if (type == "weekly")
+                else
                 {
+                    string tempVar = "WEEK";
+                    if (type == "weekly")
+                    {
+                        tempVar = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        tempVar = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        tempVar = "YEAR";
+                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
-                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 "+ tempVar + ") and now() ");
                     sbsql.Append(" and IsInternal=1 ");
                     sbsql.Append(" ; ");
-                }
+                    
+                }                
 
                 cmd.CommandText = sbsql.ToString();
 
@@ -124,36 +132,43 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 sbsql.Append(" SELECT count(StatId) As Count FROM statistics ");
                 sbsql.Append(" where IsExternal=1 ");
                 sbsql.Append(" ; ");
-
-                if (type != "all" && type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
                     sbsql.Append(" where date_format(InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
                     sbsql.Append(" and IsExternal=1 ");
                     sbsql.Append(" ; ");
                 }
-                else if (type == "weekly")
+                else
                 {
+                    string tempVar = "WEEK";
+                    if (type == "weekly")
+                    {
+                        tempVar = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        tempVar = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        tempVar = "YEAR";
+                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
-                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 " + tempVar + ") and now() ");
                     sbsql.Append(" and IsExternal=1 ");
                     sbsql.Append(" ; ");
-                }
+
+                }                
 
                 cmd.CommandText = sbsql.ToString();
 
@@ -200,21 +215,14 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 sbsql.Append(" and ReceiverId !=0 ");
                 sbsql.Append(" ; ");
 
-                if (type != "all" && type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
                     sbsql.Append(" where date_format(InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
@@ -222,15 +230,30 @@ namespace MVCHackathon.Areas.Dashboard.Services
                     sbsql.Append(" and ReceiverId !=0 ");
                     sbsql.Append(" ; ");
                 }
-                else if (type == "weekly")
+                else
                 {
+                    string tempVar = "WEEK";
+                    if (type == "weekly")
+                    {
+                        tempVar = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        tempVar = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        tempVar = "YEAR";
+                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
-                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 " + tempVar + ") and now() ");
                     sbsql.Append(" and IsInternal=1 ");
                     sbsql.Append(" and ReceiverId !=0 ");
                     sbsql.Append(" ; ");
-                }
+
+                }               
 
                 cmd.CommandText = sbsql.ToString();
 
@@ -276,22 +299,14 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 sbsql.Append(" where IsExternal=1 ");
                 sbsql.Append(" and ReceiverId !=0 ");
                 sbsql.Append(" ; ");
-
-                if (type != "all" && type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
                     sbsql.Append(" where date_format(InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
@@ -299,16 +314,31 @@ namespace MVCHackathon.Areas.Dashboard.Services
                     sbsql.Append(" and ReceiverId !=0 ");
                     sbsql.Append(" ; ");
                 }
-                else if (type == "weekly")
+                else
                 {
+                    string tempVar = "WEEK";
+                    if (type == "weekly")
+                    {
+                        tempVar = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        tempVar = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        tempVar = "YEAR";
+                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select count(StatId) As Count from statistics ");
-                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where InsertTimeStamp between date_sub(now(),INTERVAL 1 " + tempVar + ") and now() ");
                     sbsql.Append(" and IsExternal=1 ");
                     sbsql.Append(" and ReceiverId !=0 ");
                     sbsql.Append(" ; ");
-                }
 
+                }
+                
                 cmd.CommandText = sbsql.ToString();
                 
                 reader = cmd.ExecuteReader();
@@ -390,21 +420,14 @@ namespace MVCHackathon.Areas.Dashboard.Services
             {
                 MySqlCommand cmd = connection.CreateCommand();
                 StringBuilder sbsql = new StringBuilder(1024);
-                if(type != "weekly")
+                if(type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+                    
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
@@ -416,10 +439,23 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 }
                 else
                 {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
-                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 "+ temp + ") and now() ");
                     sbsql.Append(" and b.IsInternal=1 ");
                     sbsql.Append(" order by a.InsertTimeStamp ASC ");
                     sbsql.Append(" Limit 10 ");
@@ -462,21 +498,14 @@ namespace MVCHackathon.Areas.Dashboard.Services
             {
                 MySqlCommand cmd = connection.CreateCommand();
                 StringBuilder sbsql = new StringBuilder(1024);
-                if (type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
@@ -488,15 +517,28 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 }
                 else
                 {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
-                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
                     sbsql.Append(" and b.IsExternal=1 ");
                     sbsql.Append(" order by a.InsertTimeStamp ASC ");
                     sbsql.Append(" Limit 10 ");
                     sbsql.Append(" ; ");
-                }
+                }                
 
                 cmd.CommandText = sbsql.ToString();
 
@@ -534,21 +576,15 @@ namespace MVCHackathon.Areas.Dashboard.Services
             {
                 MySqlCommand cmd = connection.CreateCommand();
                 StringBuilder sbsql = new StringBuilder(1024);
-                if (type != "weekly")
+
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
@@ -561,10 +597,23 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 }
                 else
                 {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
-                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
                     sbsql.Append(" and b.IsInternal=1 ");
                     sbsql.Append(" and b.ReceiverId !=0 ");
                     sbsql.Append(" order by a.InsertTimeStamp ASC ");
@@ -572,6 +621,7 @@ namespace MVCHackathon.Areas.Dashboard.Services
                     sbsql.Append(" ; ");
                 }
 
+                
                 cmd.CommandText = sbsql.ToString();
 
                 reader = cmd.ExecuteReader();
@@ -608,21 +658,14 @@ namespace MVCHackathon.Areas.Dashboard.Services
             {
                 MySqlCommand cmd = connection.CreateCommand();
                 StringBuilder sbsql = new StringBuilder(1024);
-                if (type != "weekly")
+                if (type == "daily")
                 {
                     string tempVar = "%Y-%m-%d";
                     if (type == "daily")
                     {
                         tempVar = "%Y-%m-%d";
                     }
-                    else if (type == "monthly")
-                    {
-                        tempVar = "%Y-%m";
-                    }
-                    else if (type == "yearly")
-                    {
-                        tempVar = "%Y";
-                    }
+
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
@@ -635,10 +678,23 @@ namespace MVCHackathon.Areas.Dashboard.Services
                 }
                 else
                 {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
                     sbsql.Clear();
                     sbsql.Append(" select a.* from mailbox as a ");
                     sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
-                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 WEEK) and now() ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
                     sbsql.Append(" and b.IsExternal=1 ");
                     sbsql.Append(" and b.ReceiverId !=0 ");
                     sbsql.Append(" order by a.InsertTimeStamp ASC ");

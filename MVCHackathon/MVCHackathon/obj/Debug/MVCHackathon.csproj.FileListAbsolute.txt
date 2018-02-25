@@ -919,3 +919,4 @@ D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\bin\System.Web.Mvc.xml
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.dll
 D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.pdb
+D:\LearningApp\MailDashboard\MailDashboard\MVCHackathon\MVCHackathon\obj\Debug\MVCHackathon.csprojResolveAssemblyReference.cache
