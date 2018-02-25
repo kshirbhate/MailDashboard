@@ -16,7 +16,7 @@
                         <a href='@Url.Action("Index", "Mailbox", new { area = "Mailbox"})'>Inbox</a>
                         <a href='@Url.Action("SentMail", "Mailbox", new { area = "Mailbox"})'>Sent</a>
                         <a href='@Url.Action("DraftMail", "Mailbox", new { area = "Mailbox"})'>Drafts</a>
-                        <a href='@Url.Action("SpamMail", "Mailbox", new { area = "Mailbox"})'>Spam</a>
+                        <a class="activelink" href='@Url.Action("SpamMail", "Mailbox", new { area = "Mailbox"})'>Spam</a>
 
                     </div>
                 </div>
@@ -33,21 +33,7 @@
                         </thead>
 
                         <tbody>
-                            <tr>
-                                <td>Tushar</td>
-                                <td>On Leave</td>
-                                <td>27/01/2017</td>
-                            </tr>
-                            <tr>
-                                <td>Chaitanya</td>
-                                <td>Working From Home</td>
-                                <td>26/01/2017</td>
-                            </tr>
-                            <tr>
-                                <td>Aman</td>
-                                <td>Session on Payroll</td>
-                                <td>25/01/2017</td>
-                            </tr>
+                            
                             @*@for (int i = 0; i < Model.List.Count; i++)
                                 {
                                     <tr>

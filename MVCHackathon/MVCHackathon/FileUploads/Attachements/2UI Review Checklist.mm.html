@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>UI Review Checklist</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+<p>UI Review Checklist
+<ul><li>Visuals
+<ul><li>UI elements should &nbsp;render exactly same as in design mockups
+<ul><li><p>Check for extra paddings
+<ul><li>This might change div's height and width
+
+</li>
+
+</ul><p>Check for extra margins
+<ul><li>This might give you white space in between divs.
+
+</li>
+
+</ul><p>Check for horinzontal scrollbar.
+<ul><li>This comes because there might be a width, padding or margin that is going outside to parent div.
+
+</li>
+
+</ul><p>Check for Typography elements
+<ul><li>Check for applied styles to elements, this should be as per markups
+<ul><li>Colors
+
+</li>
+<li>Font-weights
+
+</li>
+<li>size
+
+</li>
+<li>height
+
+</li>
+<li>width
+
+</li>
+
+</ul>
+</li>
+
+</ul><p>Check for overlay (popovers, modals, tooltips)
+<ul><li>when checking on mobile, width should not go outside viewport for overlays.
+
+</li>
+
+</ul><p>If using parent child elements, then calculate padding, margins, width or height properly so that parent div will have proper style in terms of padding, margins, width or height.
+<p>Check whether same classes are not being rendered in style tab of inspect element.
+<ul><li><p>This happens because of importing same css file in components which are again rendered in parent component.
+</li>
+</ul><p>Try to avoid inline styles, instead create feature level styles and override
+<ul><li><p>If you want to override a style then you should write class specific to that element and put that in feature level css file.
+</li>
+</ul><p>Give id's to each elements and they should be unique
+<ul><li><p>You can apply styles by using ids. but you should give styles to ids only wherever required. because id has more weightage than class..
+</li>
+</ul><p>When using third party css library look into this points
+<ul><li>whether it overrides your style classes
+
+</li>
+<li>When using row, col classes check for paddings and margins.
+
+</li>
+
+</ul></li>
+</ul>
+</li>
+<li>Check for spelling and grammar errors
+
+</li>
+<li>remove console.logs statements from code.
+
+</li>
+<li>This above steps can be done on Chrome, Mozilla, IE for Desktop, Mobile and Tablet also
+
+</li>
+
+</ul>
+</li>
+<li>Code
+<ul><li>UI Styles
+<ul><li>When writing style classes, set your browsers on minimum boundaries
+<ul><li>Set 320 for mobile
+
+</li>
+<li>Set 768 for tablet
+
+</li>
+<li>Set 992 for desktop
+
+</li>
+
+</ul>
+</li>
+<li>Consistent naming conventions are used
+
+</li>
+<li>CSS validates against the W3C validator
+
+</li>
+<li>CSS selectors are only as specific as they need to be; grouped logically
+
+</li>
+<li>Events and styles applied to :hover are also applied to :focus
+
+</li>
+
+</ul>
+</li>
+<li>UI Code
+<ul><li>Code does not contain inline style attributes
+
+</li>
+<li>Code does not contain deprecated elements &amp; attributes
+
+</li>
+<li>Tags and attributes are lowercase (For CSS)
+
+</li>
+<li>Tags are closed and nested properly
+
+</li>
+<li>Tables are only used to display tabular data
+
+</li>
+<li>Element IDs are unique
+
+</li>
+<li>Add Comments wherever required.
+
+</li>
+<li>Their should not be any garbage code.
+
+</li>
+<li>Import only those third party libraries which are required.
+
+</li>
+<li>Code should run with 0 errors in console.
+
+</li>
+<li>Code should run with 0 warnings in console
+
+</li>
+
+</ul>
+</li>
+<li>React Code
+
+</li>
+
+</ul>
+</li>
+
+</ul></body>
+</html>

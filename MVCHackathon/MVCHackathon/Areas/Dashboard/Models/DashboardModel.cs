@@ -34,6 +34,8 @@ namespace MVCHackathon.Areas.Dashboard.Models
         private string _Message;
         private string _Attachment;
 
+        private string _AttachmentSize;
+
         private List<DashboardModel> _DailySenderList = new List<DashboardModel>();
         private List<DashboardModel> _DailyReceiverList = new List<DashboardModel>();
 
@@ -449,6 +451,19 @@ namespace MVCHackathon.Areas.Dashboard.Models
             set
             {
                 _YearlyReceiverList = value;
+            }
+        }
+
+        public string AttachmentSize
+        {
+            get
+            {
+                return _AttachmentSize;
+            }
+
+            set
+            {
+                _AttachmentSize = value;
             }
         }
     }

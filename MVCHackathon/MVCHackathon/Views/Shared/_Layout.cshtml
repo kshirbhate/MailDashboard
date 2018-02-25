@@ -47,10 +47,20 @@
                         <li><a href='@Url.Action("About", "Home", new { area = ""})'>About</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a><b>Hello @ViewBag.UserRealName</b></a></li>
-                        <li><a href='@Url.Action("Logout", "Home", new { area = ""})'><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        <li><a id="userNamePopoverLink" data-placement='bottom' href="#"><b>Hello @ViewBag.UserRealName</b></a></li>
+                        <li></li>
                     </ul>
+                    <div id="popover_content_wrapper" style="display: none">
+                        <div>
+                            <a href='@Url.Action("ChangePassword", "Home", new { area = ""})'><span class="glyphicon glyphicon-wrench"></span> Change Password</a>
+                        </div>
+                        <div>
+                            <a href='@Url.Action("Logout", "Home", new { area = ""})'><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+                        </div>
+                    </div>
                 </div>
+
+                
             </div>
         </nav>
         @RenderBody()
@@ -62,6 +72,13 @@
 
     <script>
         $(document).ready(function () {
+            $('#userNamePopoverLink').popover({
+                html: true,
+                content: function () {
+                    return $('#popover_content_wrapper').html();
+                }
+            });
+
             $('#table-data-collection').DataTable();
 
             //$('#table-data-collection-report1').DataTable();

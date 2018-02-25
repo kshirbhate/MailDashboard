@@ -324,6 +324,10 @@
     <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingExternalTop10Ids.cshtml" />
     <Content Include="Areas\Dashboard\Views\Dashboard\IncomingInternalTop10Ids.cshtml" />
     <Content Include="Areas\Dashboard\Views\Dashboard\IncomingExternalTop10Ids.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingInternalAttachmentSize.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingExternalAttachmentSize.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\IncomingInternalAttachmentSize.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\IncomingExternalAttachmentSize.cshtml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="scripts\DataTables\autoFill.bootstrap.min.js" />
@@ -455,6 +459,7 @@
     <Content Include="Views\Home\ImportantLinks.cshtml" />
     <Content Include="Views\Home\Help.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\ChangePassword.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -466,6 +471,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Chat\Models\" />
     <Folder Include="Areas\Chat\Views\Shared\" />
+    <Folder Include="FileUploads\Attachements\" />
     <Folder Include="Views\Session\" />
   </ItemGroup>
   <PropertyGroup>

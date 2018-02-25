@@ -5,6 +5,7 @@ using System.Web;
 using MVCHackathon.Models;
 using MVCHackathon.Services;
 using System.Web.Mvc;
+using System.IO;
  using MVCHackathon.Areas.Mailbox.Models;
 using MVCHackathon.Areas.Mailbox.Services;
 using MVCHackathon.utilities;
@@ -21,11 +22,6 @@ namespace MVCHackathon.Areas.Mailbox.Controllers
             MailModel model = new MailModel();
             model.MailBoxSubTitle = "Inbox";
             model.List = MailboxService.Instance.GetInboxList(model, UserSession);
-            //model.List = MailboxService.Instance.updateTimes(model,UserSession);
-            //foreach(MailModel item in model.List)
-            //{
-            //    bool ret = MailboxService.Instance.UpdateMailTime(item, UserSession);
-            //}
             return View(model);
         }
 
@@ -67,6 +63,19 @@ namespace MVCHackathon.Areas.Mailbox.Controllers
         {
             setupSession();
             bool bretval = false;
+            if (Request.Files.Count > 0)
+            {
+                var file = Request.Files[0];
+                
+                if (file != null && file.ContentLength > 0)
+                {
+                    var fileName = Path.GetFileName(file.FileName);
+                    var path = Path.Combine(Server.MapPath("~/FileUploads/Attachements/"), UserSession.LoggedInUserId + fileName);
+                    file.SaveAs(path);
+                    model.AttachmentSize = (file.ContentLength / 1024).ToString();
+                    model.Attachment = "/FileUploads/Attachements/" + UserSession.LoggedInUserId + fileName;
+                }
+            }
             model.From = UserSession.Email;
             bretval = MailboxService.Instance.SendMessage(ref model, UserSession);
             bool isInternal = MailboxService.Instance.checkInternal(model.From, model.To);
@@ -95,8 +104,9 @@ namespace MVCHackathon.Areas.Mailbox.Controllers
             setupSession();
             MailModel model = new MailModel();
             model.MailBoxSubTitle = "Sent";
+            model.List = MailboxService.Instance.GetSentMailList(model, UserSession);
             return View(model);
-            
+
         }
 
         public ActionResult DraftMail()
@@ -104,6 +114,7 @@ namespace MVCHackathon.Areas.Mailbox.Controllers
             setupSession();
             MailModel model = new MailModel();
             model.MailBoxSubTitle = "Drafts";
+            model.List = MailboxService.Instance.GetDraftMailList(model, UserSession);
             return View(model);
         }
 

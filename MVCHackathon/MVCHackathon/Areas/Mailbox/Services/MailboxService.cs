@@ -285,6 +285,91 @@ namespace MVCHackathon.Areas.Mailbox.Services
             return SelectedList;
         }
 
+        public List<MailModel> GetSentMailList(MailModel model, UserSession UISssn)
+        {
+            List<MailModel> SelectedList = new List<MailModel>();
+            Object list = new List<MailModel>();
+            Object listitem = new MailModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                sbsql.Clear();
+                sbsql.Append(" SELECT a.* FROM mailbox as a ");
+                sbsql.Append(" where a.From = ");
+                sbsql.Append("'" + UISssn.Email + "'");
+                sbsql.Append(" ; ");
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<MailModel>)list;
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+
+        public List<MailModel> GetDraftMailList(MailModel model, UserSession UISssn)
+        {
+            List<MailModel> SelectedList = new List<MailModel>();
+            Object list = new List<MailModel>();
+            Object listitem = new MailModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                sbsql.Clear();
+                sbsql.Append(" SELECT a.* FROM mailbox as a ");
+                sbsql.Append(" where a.From = ");
+                sbsql.Append("'" + UISssn.Email + "'");
+                sbsql.Append(" and a.Status!=1 ");
+                sbsql.Append(" ; ");
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<MailModel>)list;
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+
         public MailModel getMailById(long MailId, UserSession UISssn)
         {
             MailModel model = new MailModel();

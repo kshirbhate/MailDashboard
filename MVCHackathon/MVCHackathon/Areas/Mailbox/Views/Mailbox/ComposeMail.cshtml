@@ -4,7 +4,7 @@
     ViewBag.Title = "ComposeMail";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@using (Html.BeginForm())
+@using (Html.BeginForm("Send", "Mailbox", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <div class="container">
         <h2 class="page-header">Compose Mail</h2>
@@ -47,8 +47,7 @@
                 <div style="margin-bottom: 10px" class="input-group">
                     <span><label>Attachment</label></span>
 
-                    @Html.TextBox("Attachment", Model.Attachment, new { @type = "file", @class = "form-control" })
-
+                    @Html.TextBox("Attachment", "", new { type = "file", @class = "form-control" })
 
                 </div>
                 <div style="margin-bottom:10px; float:right;" class="form-group">

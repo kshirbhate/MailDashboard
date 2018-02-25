@@ -1080,5 +1080,361 @@ namespace MVCHackathon.Areas.Dashboard.Services
             }
             return SelectedList;
         }
+
+        public List<DashboardModel> GetOutgoingInternalTopAttachementList(string type, string operation, UserSession UISssn)
+        {
+            List<DashboardModel> SelectedList = new List<DashboardModel>();
+            Object list = new List<DashboardModel>();
+            Object listitem = new DashboardModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                string operationMode = "From";
+                if (operation == "sender")
+                {
+                    operationMode = "From";
+                }
+                else
+                {
+                    operationMode = "To";
+                }
+                if (type == "daily")
+                {
+                    string tempVar = "%Y-%m-%d";
+                    if (type == "daily")
+                    {
+                        tempVar = "%Y-%m-%d";
+                    }
+
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where date_format(a.InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
+                    sbsql.Append(" and b.IsInternal=1 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+                else
+                {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
+                    sbsql.Append(" and b.IsInternal=1 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<DashboardModel>)list;
+                SelectedList = SelectedList.OrderByDescending(t => t.AttachmentSize).Take(10).ToList();
+
+
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+        public List<DashboardModel> GetOutgoingExternalTopAttachementList(string type, string operation, UserSession UISssn)
+        {
+            List<DashboardModel> SelectedList = new List<DashboardModel>();
+            Object list = new List<DashboardModel>();
+            Object listitem = new DashboardModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                string operationMode = "From";
+                if (operation == "sender")
+                {
+                    operationMode = "From";
+                }
+                else
+                {
+                    operationMode = "To";
+                }
+                if (type == "daily")
+                {
+                    string tempVar = "%Y-%m-%d";
+                    if (type == "daily")
+                    {
+                        tempVar = "%Y-%m-%d";
+                    }
+
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where date_format(a.InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
+                    sbsql.Append(" and b.IsExternal=1 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+                else
+                {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
+                    sbsql.Append(" and b.IsExternal=1 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<DashboardModel>)list;
+                SelectedList = SelectedList.OrderByDescending(t => t.AttachmentSize).Take(10).ToList();
+
+
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+
+        public List<DashboardModel> GetIncomingInternalTopAttachementList(string type, string operation, UserSession UISssn)
+        {
+            List<DashboardModel> SelectedList = new List<DashboardModel>();
+            Object list = new List<DashboardModel>();
+            Object listitem = new DashboardModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                string operationMode = "From";
+                if (operation == "sender")
+                {
+                    operationMode = "From";
+                }
+                else
+                {
+                    operationMode = "To";
+                }
+                if (type == "daily")
+                {
+                    string tempVar = "%Y-%m-%d";
+                    if (type == "daily")
+                    {
+                        tempVar = "%Y-%m-%d";
+                    }
+
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where date_format(a.InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
+                    sbsql.Append(" and b.IsInternal=1 ");
+                    sbsql.Append(" and b.ReceiverId!=0 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+                else
+                {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
+                    sbsql.Append(" and b.IsInternal=1 ");
+                    sbsql.Append(" and b.ReceiverId!=0 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<DashboardModel>)list;
+                SelectedList = SelectedList.OrderByDescending(t => t.AttachmentSize).Take(10).ToList();
+
+
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+
+        public List<DashboardModel> GetIncomingExternalTopAttachementList(string type, string operation, UserSession UISssn)
+        {
+            List<DashboardModel> SelectedList = new List<DashboardModel>();
+            Object list = new List<DashboardModel>();
+            Object listitem = new DashboardModel();
+            DbDataReader reader = null;
+
+            MySqlConnection connection = new MySqlConnection(UISssn.ConnectionString);
+            connection.Open();
+            try
+            {
+                MySqlCommand cmd = connection.CreateCommand();
+                StringBuilder sbsql = new StringBuilder(1024);
+                string operationMode = "From";
+                if (operation == "sender")
+                {
+                    operationMode = "From";
+                }
+                else
+                {
+                    operationMode = "To";
+                }
+                if (type == "daily")
+                {
+                    string tempVar = "%Y-%m-%d";
+                    if (type == "daily")
+                    {
+                        tempVar = "%Y-%m-%d";
+                    }
+
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where date_format(a.InsertTimeStamp, '" + tempVar + "') = date_format(now(), '" + tempVar + "') ");
+                    sbsql.Append(" and b.IsExternal=1 ");
+                    sbsql.Append(" and b.ReceiverId!=0 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+                else
+                {
+                    string temp = "WEEK";
+                    if (type == "weekly")
+                    {
+                        temp = "WEEK";
+                    }
+                    else if (type == "monthly")
+                    {
+                        temp = "MONTH";
+                    }
+                    else if (type == "yearly")
+                    {
+                        temp = "YEAR";
+                    }
+                    sbsql.Clear();
+                    sbsql.Append(" select SUM(b.AttachmentSize) as AttachmentSize, a." + operationMode + " from mailbox as a ");
+                    sbsql.Append(" inner join  statistics as b on a.MailId = b.MailId ");
+                    sbsql.Append(" where a.InsertTimeStamp between date_sub(now(),INTERVAL 1 " + temp + ") and now() ");
+                    sbsql.Append(" and b.IsExternal=1 ");
+                    sbsql.Append(" and b.ReceiverId!=0 ");
+                    sbsql.Append(" group by a." + operationMode + " ");
+                    sbsql.Append(" ; ");
+                }
+
+                cmd.CommandText = sbsql.ToString();
+
+                reader = cmd.ExecuteReader();
+
+                if (reader != null && reader.HasRows)
+                {
+                    Common.Instance.ConvertRsObj(ref list, reader, listitem);
+                }
+
+                SelectedList = (List<DashboardModel>)list;
+                SelectedList = SelectedList.OrderByDescending(t => t.AttachmentSize).Take(10).ToList();
+
+
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                reader = Common.Instance.CloseReader(reader);
+                connection.Close();
+            }
+            return SelectedList;
+        }
+
     }
 }

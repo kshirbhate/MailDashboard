@@ -90,5 +90,11 @@ namespace MVCHackathon.Controllers
             setupSession();
             return View();
         }
+
+        public ActionResult ChangePassword()
+        {
+            setupSession();
+            return View();
+        }
     }
 }

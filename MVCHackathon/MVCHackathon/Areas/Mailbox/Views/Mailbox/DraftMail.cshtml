@@ -1,8 +1,13 @@
-﻿
+﻿@using MVCHackathon.Areas.Mailbox.Models
+@model MVCHackathon.Areas.Mailbox.Models.MailModel
 @{
-    ViewBag.Title = "DraftMail";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{
+    ViewBag.Title = "Index";
+}
+
+
 @using (Html.BeginForm())
 {
     <div class="main">
@@ -15,7 +20,7 @@
                     <div class="sidenav">
                         <a href='@Url.Action("Index", "Mailbox", new { area = "Mailbox"})'>Inbox</a>
                         <a href='@Url.Action("SentMail", "Mailbox", new { area = "Mailbox"})'>Sent</a>
-                        <a href='@Url.Action("DraftMail", "Mailbox", new { area = "Mailbox"})'>Drafts</a>
+                        <a class="activelink" href='@Url.Action("DraftMail", "Mailbox", new { area = "Mailbox"})'>Drafts</a>
                         <a href='@Url.Action("SpamMail", "Mailbox", new { area = "Mailbox"})'>Spam</a>
 
                     </div>
@@ -33,30 +38,16 @@
                         </thead>
 
                         <tbody>
-                            <tr>
-                                <td>Tushar</td>
-                                <td>On Leave</td>
-                                <td>27/01/2017</td>
-                            </tr>
-                            <tr>
-                                <td>Chaitanya</td>
-                                <td>Working From Home</td>
-                                <td>26/01/2017</td>
-                            </tr>
-                            <tr>
-                                <td>Aman</td>
-                                <td>Session on Payroll</td>
-                                <td>25/01/2017</td>
-                            </tr>
-                            @*@for (int i = 0; i < Model.List.Count; i++)
-                                {
-                                    <tr>
-                                        <td>@Model.List[i].PrintId</td>
-                                        <td>@Model.List[i].UserRealName</td>
-                                        <td>@Model.List[i].CategoryName</td>
-                                        <td><a href='@Url.Action("Edit", "Print", new { PrintId = Model.List[i].PrintId , area = "System"})'>Edit</a></td>
-                                    </tr>
-                                }*@
+                            @for (int i = 0; i < Model.List.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <a href='@Url.Action("DetailMail", "MailBox", new { area = "MailBox", MailId = Model.List[i].MailId })'>@Model.List[i].From</a>
+                                    </td>
+                                    <td>@Model.List[i].Subject</td>
+                                    <td>@Model.List[i].InsertTimeStamp</td>
+                                </tr>
+                            }
                         </tbody>
                     </table>
                 </div>
@@ -71,4 +62,3 @@
     </div>
 
 }
-

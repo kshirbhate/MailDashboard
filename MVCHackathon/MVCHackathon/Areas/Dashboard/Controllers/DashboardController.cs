@@ -170,5 +170,81 @@ namespace MVCHackathon.Areas.Dashboard.Controllers
             return View(model);
         }
 
+
+        public ActionResult OutgoingInternalAttachmentSize()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetOutgoingInternalTopAttachementList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult OutgoingExternalAttachmentSize()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetOutgoingExternalTopAttachementList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult IncomingInternalAttachmentSize()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetIncomingInternalTopAttachementList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetIncomingInternalTopAttachementList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetIncomingInternalTopAttachementList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetIncomingInternalTopAttachementList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetIncomingInternalTopAttachementList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetIncomingInternalTopAttachementList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetIncomingInternalTopAttachementList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetIncomingInternalTopAttachementList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult IncomingExternalAttachmentSize()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetIncomingExternalTopAttachementList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetIncomingExternalTopAttachementList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetIncomingExternalTopAttachementList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetIncomingExternalTopAttachementList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetIncomingExternalTopAttachementList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetIncomingExternalTopAttachementList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetIncomingExternalTopAttachementList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetIncomingExternalTopAttachementList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
     }
 }
