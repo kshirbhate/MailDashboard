@@ -93,5 +93,82 @@ namespace MVCHackathon.Areas.Dashboard.Controllers
             model.YearlyList = DashboardService.Instance.GetIncomingExternalTop10List("yearly", UserSession);
             return View(model);
         }
+
+        public ActionResult OutgoingInternalTop10Ids()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("daily","receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetOutgoingInternalTop10IdsList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult OutgoingExternalTop10Ids()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetOutgoingExternalTop10IdsList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult IncomingInternalTop10Ids()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetIncomingInternalTop10IdsList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetIncomingInternalTop10IdsList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetIncomingInternalTop10IdsList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetIncomingInternalTop10IdsList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetIncomingInternalTop10IdsList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetIncomingInternalTop10IdsList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetIncomingInternalTop10IdsList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetIncomingInternalTop10IdsList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
+        public ActionResult IncomingExternalTop10Ids()
+        {
+            setupSession();
+            DashboardModel model = new DashboardModel();
+            model.DailySenderList = DashboardService.Instance.GetIncomingExternalTop10IdsList("daily", "sender", UserSession);
+            model.DailyReceiverList = DashboardService.Instance.GetIncomingExternalTop10IdsList("daily", "receiver", UserSession);
+
+            model.WeeklySenderList = DashboardService.Instance.GetIncomingExternalTop10IdsList("weekly", "sender", UserSession);
+            model.WeeklyReceiverList = DashboardService.Instance.GetIncomingExternalTop10IdsList("weekly", "receiver", UserSession);
+
+            model.MonthlySenderList = DashboardService.Instance.GetIncomingExternalTop10IdsList("monthly", "sender", UserSession);
+            model.MonthlyReceiverList = DashboardService.Instance.GetIncomingExternalTop10IdsList("monthly", "receiver", UserSession);
+
+            model.YearlySenderList = DashboardService.Instance.GetIncomingExternalTop10IdsList("yearly", "sender", UserSession);
+            model.YearlyReceiverList = DashboardService.Instance.GetIncomingExternalTop10IdsList("yearly", "receiver", UserSession);
+
+            return View(model);
+        }
+
     }
 }

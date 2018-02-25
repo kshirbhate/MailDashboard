@@ -34,6 +34,17 @@ namespace MVCHackathon.Areas.Dashboard.Models
         private string _Message;
         private string _Attachment;
 
+        private List<DashboardModel> _DailySenderList = new List<DashboardModel>();
+        private List<DashboardModel> _DailyReceiverList = new List<DashboardModel>();
+
+        private List<DashboardModel> _MonthlySenderList = new List<DashboardModel>();
+        private List<DashboardModel> _MonthlyReceiverList = new List<DashboardModel>();
+
+        private List<DashboardModel> _WeeklySenderList = new List<DashboardModel>();
+        private List<DashboardModel> _WeeklyReceiverList = new List<DashboardModel>();
+
+        private List<DashboardModel> _YearlySenderList = new List<DashboardModel>();
+        private List<DashboardModel> _YearlyReceiverList = new List<DashboardModel>();
         public long Daily
         {
             get
@@ -326,6 +337,118 @@ namespace MVCHackathon.Areas.Dashboard.Models
             set
             {
                 _Attachment = value;
+            }
+        }
+
+        public List<DashboardModel> DailySenderList
+        {
+            get
+            {
+                if (_DailySenderList == null) _DailySenderList = new List<DashboardModel>();
+                return _DailySenderList;
+            }
+
+            set
+            {
+                _DailySenderList = value;
+            }
+        }
+
+        public List<DashboardModel> DailyReceiverList
+        {
+            get
+            {
+                if (_DailyReceiverList == null) _DailyReceiverList = new List<DashboardModel>();
+                return _DailyReceiverList;
+            }
+
+            set
+            {
+                _DailyReceiverList = value;
+            }
+        }
+
+        public List<DashboardModel> MonthlySenderList
+        {
+            get
+            {
+                if (_MonthlySenderList == null) _MonthlySenderList = new List<DashboardModel>();
+                return _MonthlySenderList;
+            }
+
+            set
+            {
+                _MonthlySenderList = value;
+            }
+        }
+
+        public List<DashboardModel> MonthlyReceiverList
+        {
+            get
+            {
+                if (_MonthlyReceiverList == null) _MonthlyReceiverList = new List<DashboardModel>();
+                return _MonthlyReceiverList;
+            }
+
+            set
+            {
+                _MonthlyReceiverList = value;
+            }
+        }
+
+        public List<DashboardModel> WeeklySenderList
+        {
+            get
+            {
+                if (_WeeklySenderList == null) _WeeklySenderList = new List<DashboardModel>();
+                return _WeeklySenderList;
+            }
+
+            set
+            {
+                _WeeklySenderList = value;
+            }
+        }
+
+        public List<DashboardModel> WeeklyReceiverList
+        {
+            get
+            {
+                if (_WeeklyReceiverList == null) _WeeklyReceiverList = new List<DashboardModel>();
+                return _WeeklyReceiverList;
+            }
+
+            set
+            {
+                _WeeklyReceiverList = value;
+            }
+        }
+
+        public List<DashboardModel> YearlySenderList
+        {
+            get
+            {
+                if (_YearlySenderList == null) _YearlySenderList = new List<DashboardModel>();
+                return _YearlySenderList;
+            }
+
+            set
+            {
+                _YearlySenderList = value;
+            }
+        }
+
+        public List<DashboardModel> YearlyReceiverList
+        {
+            get
+            {
+                if (_YearlyReceiverList == null) _YearlyReceiverList = new List<DashboardModel>();
+                return _YearlyReceiverList;
+            }
+
+            set
+            {
+                _YearlyReceiverList = value;
             }
         }
     }

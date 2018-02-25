@@ -320,6 +320,10 @@
     <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingExternalReport.cshtml" />
     <Content Include="Areas\Dashboard\Views\Dashboard\IncomingInternalReport.cshtml" />
     <Content Include="Areas\Dashboard\Views\Dashboard\IncomingExternalReport.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingInternalTop10Ids.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\OutgoingExternalTop10Ids.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\IncomingInternalTop10Ids.cshtml" />
+    <Content Include="Areas\Dashboard\Views\Dashboard\IncomingExternalTop10Ids.cshtml" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="scripts\DataTables\autoFill.bootstrap.min.js" />
