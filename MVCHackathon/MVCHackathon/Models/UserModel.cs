@@ -8,7 +8,10 @@ namespace MVCHackathon.Models
 {
     public class UserModel : Context
     {
+        private string _Token;
         private string _UserName;
+        private string _ConfirmPassword;
+        private string _OldPassword;
 
         public string UserName
         {
@@ -152,6 +155,45 @@ namespace MVCHackathon.Models
             set
             {
                 _UnitList = value;
+            }
+        }
+
+        public string Token
+        {
+            get
+            {
+                return _Token;
+            }
+
+            set
+            {
+                _Token = value;
+            }
+        }
+
+        public string ConfirmPassword
+        {
+            get
+            {
+                return _ConfirmPassword;
+            }
+
+            set
+            {
+                _ConfirmPassword = value;
+            }
+        }
+
+        public string OldPassword
+        {
+            get
+            {
+                return _OldPassword;
+            }
+
+            set
+            {
+                _OldPassword = value;
             }
         }
 

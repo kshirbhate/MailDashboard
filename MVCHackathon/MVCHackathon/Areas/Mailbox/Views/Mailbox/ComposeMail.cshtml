@@ -9,8 +9,15 @@
     <div class="container">
         <h2 class="page-header">Compose Mail</h2>
         <div id="Compose_Mailbox" style="margin-top:20px; "  class="col-md-12  col-sm-12 ">
-            @if (ViewBag.Message != "")
-            {
+            @if (ViewBag.IsError == true)
+                {
+                <div class="alert alert-danger">
+                    @ViewBag.Message
+                </div>
+            }
+
+            @if (ViewBag.IsSuccess == true)
+                {
                 <div class="alert alert-success">
                     @ViewBag.Message
                 </div>
@@ -53,6 +60,7 @@
                 <div style="margin-bottom:10px; float:right;" class="form-group">
                     <!-- Button -->
                     <div class="col-sm-12 controls">
+                        <input class="btn btn-primary" type="submit" name="Save" value="Save as draft" />
                         <input class="btn btn-primary" type="submit" name="Send" value="Send" />
                     </div>
                 </div>

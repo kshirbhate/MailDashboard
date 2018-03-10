@@ -7,19 +7,28 @@
 
 @using (Html.BeginForm())
 {
-    
-        <h2 class="page-header"><b><center>Register Customer</center></b></h2>
-        <div id="loginbox" style="margin-top:10px;" class="mainbox col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+    <div class="login-box animated fadeInUp">
+        <div class="box-header">
+            <h2>Register Customer</h2>
+        </div>
+        @if (ViewBag.IsError == true)
+                {
+            <div class="alert alert-danger">
+                @ViewBag.Message
+            </div>
+        }
+
+        @if (ViewBag.IsSuccess == true)
+                {
+            <div class="alert alert-success">
+                @ViewBag.Message
+            </div>
+        }
+        <div id="loginbox" style="margin-top:10px; padding: 20px 40px;" class="mainbox">
             <div class="panel panel-info">
-
-               
-
-
                 <div class="clearfix"></div>
                 <div>
                     <div style="padding-top:10px; float:left;" class="panel-body">
-
-                       
 
                         <div style="margin-bottom: 10px" class="input-group">
                             <span><label>Customer Name</label></span>
@@ -66,27 +75,27 @@
                         </div>
                         <div style="margin-bottom: 10px" class="input-group">
                             <span><label>Dateofbirth</label></span>
-                            @Html.TextBox("Dateofbirth", Model.Dateofbirth, new { @type="date", @class = "form-control" })
+                            @Html.TextBox("Dateofbirth", Model.Dateofbirth, new { @type = "date", @class = "form-control" })
                         </div>
                         <div style="margin-bottom: 10px" class="input-group">
                             <span><label>Gender</label></span>
                             <div>
                                 <label>Male : @Html.RadioButton("Gender", "Male")</label>
-                                <label>Female : @Html.RadioButton("Gender", "Female")</label>                                
-                            </div>
-                            
-                        </div>
-
-
-                            <div style="margin-bottom: 10px" class="input-group">
-                                <span><label>Password</label></span>
-                                <input id="login-password" type="password" class="form-control" name="Password" placeholder="password">
+                                <label>Female : @Html.RadioButton("Gender", "Female")</label>
                             </div>
 
                         </div>
+
+
+                        <div style="margin-bottom: 10px" class="input-group">
+                            <span><label>Password</label></span>
+                            <input id="login-password" type="password" class="form-control" name="Password" placeholder="password">
+                        </div>
+
+                    </div>
 
                 </div>
-                     <div style="margin-top:870px; float:right;" class="form-group">
+                <div style="margin-top:870px; float:right;" class="form-group">
                     <!-- Button -->
                     <div class="col-sm-12 controls">
                         <input class="btn btn-primary" type="submit" name="register" value="Register" />
@@ -96,7 +105,7 @@
             </div>
         </div>
 
-   
+    </div>
 }
 
 

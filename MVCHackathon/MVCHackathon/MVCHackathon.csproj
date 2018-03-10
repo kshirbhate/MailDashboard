@@ -460,6 +460,8 @@
     <Content Include="Views\Home\Help.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\ChangePassword.cshtml" />
+    <Content Include="Views\Home\ForgetPassword.cshtml" />
+    <Content Include="Views\Home\EditProfile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

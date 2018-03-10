@@ -1,0 +1,97 @@
+﻿@using MVCHackathon.Areas.Customer.Models
+@model MVCHackathon.Areas.Customer.Models.CustomerModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    
+    <div class="main">
+        <div class="container">
+            <div id="loginbox" style="margin-top:10px; padding: 20px 40px;" class="mainbox">
+                <h2>Edit Profile</h2>
+                <div class="panel panel-info">
+                    <div class="clearfix"></div>
+                    <div>
+                        <div style="padding-top:10px; float:left;" class="panel-body">
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Customer Name</label></span>
+                                @Html.TextBox("UserRealName", Model.UserRealName, new { @class = "form-control" })
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Mobile Number</label></span>
+                                @Html.TextBox("Mobile", Model.Mobile, new { @class = "form-control" })
+
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Email</label></span>
+                                @Html.TextBox("Email", Model.Email, new { @class = "form-control" })
+                            </div>
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Username</label></span>
+                                @Html.TextBox("UserName", Model.UserName, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Address</label></span>
+                                @Html.TextBox("Address", Model.Address, new { @class = "form-control" })
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>City</label></span>
+                                @Html.TextBox("City", Model.City, new { @class = "form-control" })
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Pincode</label></span>
+                                @Html.TextBox("Pincode", Model.Pincode, new { @class = "form-control" })
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>State</label></span>
+                                @Html.TextBox("State", Model.State, new { @class = "form-control" })
+                            </div>
+
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Country</label></span>
+                                @Html.TextBox("Country", Model.Country, new { @class = "form-control" })
+                            </div>
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Dateofbirth</label></span>
+                                @Html.TextBox("Dateofbirth", Model.Dateofbirth, new { @type = "date", @class = "form-control" })
+                            </div>
+                            <div style="margin-bottom: 10px" class="input-group">
+                                <span><label>Gender</label></span>
+                                <div>
+                                    <label>Male : @Html.RadioButton("Gender", "Male")</label>
+                                    <label>Female : @Html.RadioButton("Gender", "Female")</label>
+                                </div>
+
+                            </div>
+
+
+                            
+
+                        </div>
+
+                    </div>
+                    <div style="margin-top:870px; float:right;" class="form-group">
+                        <!-- Button -->
+                        <div class="col-sm-12 controls">
+                            <input class="btn btn-primary" type="submit" name="updateProfile" value="Update" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+}
+
+
+

@@ -40,7 +40,6 @@ namespace MVCHackathon.Areas.Mailbox.Services
             bool closeTransaction = false;
             try
             {                
-                model.Status = 1;
                 model.InsertByUserId = UISssn.LoggedInUserId;
                 MySqlCommand cmd = connection.CreateCommand();
                 StringBuilder sbsql = new StringBuilder(1024);
